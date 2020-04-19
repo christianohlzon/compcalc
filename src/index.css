@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: white;
+}
+
+input, button{
+  font-family: 'Rubik', sans-serif;
+}
+
+.container{
+  padding: 30px 35px;
+}
+
+.header{
+  justify-content: space-between;
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.box{
+  width: 100%;
+  box-sizing: border-box;  
+}
+
+.row{
+  display: flex;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #212121;
+  padding: 30px;  
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+h1, h2{
+  font-weight: 500;
+}
+
+h1{
+  margin: 0;
+  font-size: 26px;
+}
